@@ -16,9 +16,9 @@ Accordingly, using this code to encrypt your data is not secure enough. The only
 
 Google app scripts are javascript code that directly run over your google documents. They are really cool and powerful. You can read more about it [here](https://developers.google.com/apps-script).
 
-In order to open the google app script platform, just open your google sheet (or any other google document), and Click on Tools / Script Editor. That will open a new code project associated to your document.
+In order to open the google app script platform, just open your google sheet (or any other google document), and Click on Extensions -> Apps Script. That will open a new code project associated to your document.
 
-One you open the Script Editor, you should create new Script and HTML Files on it, and copy paste the code from the files in this repo. In particular:
+Once you open the Script Editor, you should create new Script and HTML Files on it, and copy paste the code from the files in this repo. In particular:
 
 * encryption.gs: Master code that manages the encryption options for the google sheet.
 * Rabbit.gs: Implementation of the Rabbit encryption algorithm.
